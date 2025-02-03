@@ -1,0 +1,17 @@
+print("~Basic calculator~")
+num1 = int(input("enter first number :"))
+num2 = int(input("enter another number :"))
+
+print(" 1 for addition\n2 for substraction\n3 for multiplication\n4 for division\n5 for percentage\n")
+
+choice = int(input("enter your choice from 1-5:"))
+if choice == 1:
+    print (num1+num2)
+elif choice == 2:
+    print (num1-num2)
+elif choice == 3:
+    print (num1*num2)
+elif choice == 4:
+    print (num1/num2)
+elif choice == 5:
+    print (num1%num2)
